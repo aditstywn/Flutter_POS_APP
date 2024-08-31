@@ -17,8 +17,7 @@ class MidtransRemoteDatasource {
     final headers = {
       'Accept': 'application/json',
       'Content-Type': 'application/json',
-      'Authorization':
-          generateBasicAuthHeader('SB-Mid-server-9M8qiBBoJ-fng4VN8gpnRdN2'),
+      'Authorization': generateBasicAuthHeader(''),
     };
 
     final body = jsonEncode(
@@ -50,8 +49,7 @@ class MidtransRemoteDatasource {
     final headers = {
       'Accept': 'application/json',
       'Content-Type': 'application/json',
-      'Authorization':
-          generateBasicAuthHeader('SB-Mid-server-9M8qiBBoJ-fng4VN8gpnRdN2'),
+      'Authorization': generateBasicAuthHeader(''),
     };
 
     final response = await http.get(
